@@ -1,0 +1,87 @@
+body
+{
+    background: linear-gradient(90deg, rgba(2,133,1,0.6699054621848739) 0%, rgba(4,185,165,0.6671043417366946) 100%);
+   
+}
+
+
+
+.container
+{
+    height: 450px;
+    width: 800px;
+
+
+ display: flex; 
+ border-top-left-radius: 12px;
+border-bottom-left-radius: 12px;
+border-top-right-radius: 12px;
+border-bottom-right-radius: 12px;
+
+
+}
+
+.left
+{
+height: 450px;
+width: 400px;
+border-top-left-radius: 12px;
+border-bottom-left-radius: 12px;
+background-image: url("Back.jpg");
+background-position: -80px;
+background-size: cover;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+
+h1,p,button
+{
+margin-left: 35px;
+margin-right: 35px;
+
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    color: rgb(248, 103, 0);
+    font-weight: bold;
+}
+.right
+{
+height: 450px;
+width: 400px;
+background-color: white;
+border-top-right-radius: 12px;
+border-bottom-right-radius: 12px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,form{
+    margin-left: 35px;
+}
+
+.button1
+{
+    width: 200px;
+    height: 30px;
+background-color: chocolate;
+color: aliceblue;
+font-weight: bold;
+
+}
+
+form input{
+    width: 300px;
+    height: 20px;
+  
+    
+    
+   border-color: chocolate;
+   
+}
+
+
